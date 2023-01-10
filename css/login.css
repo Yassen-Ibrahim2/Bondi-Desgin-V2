@@ -1,0 +1,32 @@
+:root {
+  --dark-color: #19283f;
+  --green-color: #33d1cc;
+  --red-color: #ff3150;
+  --yellow-color: #ffc400;
+  --section-color: #eff7fa;
+}
+/* Login */
+.login-data .box {
+  background-color: var(--dark-color);
+  border-radius: 6px;
+  height: 450px;
+}
+
+.login-data .date input[type="text"]:focus,
+.login-data .date input[type="password"]:focus {
+  outline: none;
+}
+
+.login-data .date input[type="text"],
+.login-data .date input[type="password"] {
+  border: none;
+  border-bottom: 1px solid white;
+  width: 100%;
+  color: white;
+}
+
+.login-data .date input[type="text"]::placeholder,
+.login-data .date input[type="password"]::placeholder {
+  color: white; 
+}
+/* Login */
